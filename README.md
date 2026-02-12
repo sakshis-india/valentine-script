@@ -1,3 +1,4 @@
+<div id="result"></div>
 <script>
 function runCode() {
     document.getElementById("result").innerHTML = `
@@ -23,4 +24,7 @@ function moveNo() {
     noBtn.style.left = x + "px";
     noBtn.style.top = y + "px";
 }
+
+// Call the function when the page loads
+runCode();
 </script>
