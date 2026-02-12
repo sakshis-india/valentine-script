@@ -212,6 +212,22 @@ function launchSparkles() {
     }
 }
 </script>
+// Romantic falling elements
+const items = ["❤️","🌹","🌸","💖","🌺"];
+
+function createFalling() {
+    const item = document.createElement("div");
+    item.classList.add("falling");
+    item.innerHTML = items[Math.floor(Math.random() * items.length)];
+    item.style.left = Math.random() * 100 + "vw";
+    item.style.animationDuration = Math.random() * 3 + 4 + "s";
+    document.body.appendChild(item);
+
+    setTimeout(() => item.remove(), 7000);
+}
+
+setInterval(createFalling, 500);
+
 
 </body>
 </html>
