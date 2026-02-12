@@ -96,7 +96,7 @@ button {
         body {
             margin: 0;
             height: 100vh;
-            background: url('IMG_1813.JPG') no-repeat center center/cover;
+            background: rgba(0,0,0,0.55);
             display: flex;
             justify-content: center;
             align-items: center;
