@@ -89,7 +89,7 @@
 <div class="overlay">
     <h1>My Forever 💍</h1>
     <p>Will you continue this beautiful fairy-tale with me… forever? ✨</p>
-    <button id="yes" onclick="sayYes()">Yes, My Queen 👑</button>
+    <button id="yes" onclick="sayYes()">Yes, My Bubu 👑</button>
     <button id="no" onmouseover="moveNo()">No 😅</button>
     <div id="result"></div>
 </div>
